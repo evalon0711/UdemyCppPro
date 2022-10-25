@@ -23,15 +23,16 @@ cmake .
 ```
 
 ## Generator for GCC and Clang
-
+# hier werden die make files erstellt
+# Generatorflag -G
 ```bash
 cd build
-cmake -S .. -B . -G "Unix Makefiles" # Option 1
+cmake -S .. -B . -G "Unix Makefiles" # Option 1, du bist in build, geh den Pfad hoch wo das CMakeLists.txt ist -S(ource) (..) und gebe dann an wo gebaut werden soll was dann -B(uild) ist mit dem aktuellen Verzeichnis (.)
 cmake .. -G "Unix Makefiles" # Option 2
 ```
 
-## Generator for MSVC
-
+## Generator for MSVC (MicroSoftVisualStudio)
+# rein windows basiert.
 ```bash
 cd build
 cmake -S .. -B . -G "Visual Studio 16 2019" # Option 1
@@ -47,6 +48,7 @@ If you want to generate the project, for example, in release mode you have to se
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 ```
+cmake -DCMAKE_BUILD_TYPE:STRING=Release ..
 
 ## Passing Options
 
@@ -55,6 +57,9 @@ If you have set some options in the CMakeLists, you can pass values in the comma
 ```bash
 cd build
 cmake -DMY_OPTION=[ON|OFF] .. 
+or
+cmake -COMPILE_EXECUTABLE=[ON|OFF] .. 
+
 ```
 
 ## Specify the Build Target (Option 1)

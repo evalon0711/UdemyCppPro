@@ -1,0 +1,2 @@
+C:/cygwin64/bin/ar.exe qc libLibrary.a CMakeFiles/Library.dir/my_lib.cc.obj
+C:/cygwin64/bin/ranlib.exe libLibrary.a

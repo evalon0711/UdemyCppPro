@@ -1,0 +1,10 @@
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/CMakeFiles/edit_cache.dir
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/CMakeFiles/rebuild_cache.dir
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/src/CMakeFiles/edit_cache.dir
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/src/CMakeFiles/rebuild_cache.dir
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/src/my_lib/CMakeFiles/Library.dir
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/src/my_lib/CMakeFiles/edit_cache.dir
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/src/my_lib/CMakeFiles/rebuild_cache.dir
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/app/CMakeFiles/Executable.dir
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/app/CMakeFiles/edit_cache.dir
+D:/40_Softwareentwicklung/Cpp/UdemyCppPro/3_CMake/3_IntermediateProject/build-debug/app/CMakeFiles/rebuild_cache.dir

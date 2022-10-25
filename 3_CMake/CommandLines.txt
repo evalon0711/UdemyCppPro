@@ -1,0 +1,45 @@
+https://stackoverflow.com/questions/59550821/cmake-cannot-create-makefile-on-windows
+
+1_HelloWorld>mkdir build
+1_HelloWorld>cd build
+1_HelloWorld\build>cmake -G "Unix Makefiles" ..
+1_HelloWorld>make all
+    [ 50%] Building CXX object CMakeFiles/executable.dir/main.cc.obj
+    [100%] Linking CXX executable executable.exe
+    [100%] Built target executable
+1_HelloWorld>executable.exe
+
+_________________________________________________________________________________
+
+Usable Commands for make:
+make 
+make all 
+make clean
+make edit_cache	--> startet den CMake Editor
+make preinstall
+make Executable
+make rebuild_cache
+
+_________________________________________________________________________________
+
+CMAKE tutorials: 
+Es gibt 10 Wege 1 ist richtig, 2 ist ok und der rest ist schlecht. 
+Wenn es Hilfe Foren gibt immer schauen, dass man die Hilfe maximal 4 Jahre ist, am besten jünger, das die Hilfe sonst veraltet ist. 
+_________________________________________________________________________________
+
+Nutze die CMakeCache.txt um zu schauen welche typen es gibt.
+    3_CMake\5_ConfigureFile\build\CMakeCache.txt
+    CMAKE_BUILD_TYPE:STRING=
+    CMAKE_BUILD_TYPE:STRING=Debug
+
+_________________________________________________________________________________
+
+https://github.com/nlohmann/json
+
+git init ; neues repository erzeugen 
+git submodule add https://github.com/nlohmann/json external/json
+
+es wird gecloned und eine datei erstellt: 
+"D:\40_Softwareentwicklung\Cpp\UdemyCppPro\3_CMake\7_Submodules\.gitmodules"
+
+eine Neue CMakeLists.txt Datei muss hier nochmals erstellt werden. 

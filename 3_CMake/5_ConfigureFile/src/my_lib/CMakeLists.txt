@@ -1,4 +1,6 @@
 add_library(${LIBRARY_NAME} my_lib.cc)
+
+# PUBLIC wird immer weitergegeben.
 target_include_directories(${LIBRARY_NAME} PUBLIC
     "./"
     "${CMAKE_BINARY_DIR}/configured_files/include")
